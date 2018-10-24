@@ -1,0 +1,239 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "wildlife sounds",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SoundIntent",
+                    "slots": [
+                        {
+                            "name": "animal",
+                            "type": "Animal"
+                        }
+                    ],
+                    "samples": [
+                        "what does {animal} sound like",
+                        "what sound does the {animal} do",
+                        "what sound does a {animal} do",
+                        "what sound does an {animal} do",
+                        "what sound does the {animal} make",
+                        "what sound does a {animal} make",
+                        "what sound does an {animal} make",
+                        "how does the {animal} do",
+                        "how does a {animal} do",
+                        "how does an {animal} do",
+                        "how does the {animal} sound",
+                        "how does a {animal} sound",
+                        "how does an {animal} sound",
+                        "do like the {animal}",
+                        "do like a {animal}",
+                        "do like an {animal}",
+                        "i want to hear {animal}",
+                        "{animal} sound",
+                        "{animal} sounds"
+                    ]
+                },
+                {
+                    "name": "QuizStartIntent",
+                    "slots": [],
+                    "samples": [
+                        "start a quiz",
+                        "quiz me",
+                        "quiz me animal sounds",
+                        "animal quiz"
+                    ]
+                },
+                {
+                    "name": "QuizResponseIntent",
+                    "slots": [
+                        {
+                            "name": "animal",
+                            "type": "Animal"
+                        }
+                    ],
+                    "samples": [
+                        "{animal}",
+                        "the answer is {animal}",
+                        "the {animal}",
+                        "that was a {animal}",
+                        "i think that was a {animal}",
+                        "maybe {animal}"
+                    ]
+                },
+                {
+                    "name": "ListIntent",
+                    "slots": [],
+                    "samples": [
+                        "list animals",
+                        "how many animals' sounds are there",
+                        "which animals are available",
+                        "which animals are there",
+                        "what animals are there",
+                        "list available voices",
+                        "list available sounds",
+                        "list available animals"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Animal",
+                    "values": [
+                        {
+                            "id": "cat",
+                            "name": {
+                                "value": "cat",
+                                "synonyms": [
+                                    "kitty",
+                                    "kitten",
+                                    "cats"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "bear",
+                            "name": {
+                                "value": "bear",
+                                "synonyms": [
+                                    "teddy",
+                                    "grizzly"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "bird",
+                            "name": {
+                                "value": "bird",
+                                "synonyms": [
+                                    "birdy"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "chicken",
+                            "name": {
+                                "value": "chicken",
+                                "synonyms": [
+                                    "hen"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "crow",
+                            "name": {
+                                "value": "crow"
+                            }
+                        },
+                        {
+                            "id": "dog",
+                            "name": {
+                                "value": "dog",
+                                "synonyms": [
+                                    "doggy",
+                                    "puppy",
+                                    "pups",
+                                    "canine"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "elephant",
+                            "name": {
+                                "value": "elephant"
+                            }
+                        },
+                        {
+                            "id": "horse",
+                            "name": {
+                                "value": "horse",
+                                "synonyms": [
+                                    "horsey"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "lion",
+                            "name": {
+                                "value": "lion",
+                                "synonyms": [
+                                    "tiger"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "monkey",
+                            "name": {
+                                "value": "monkey",
+                                "synonyms": [
+                                    "ape",
+                                    "chimpanzee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "rat",
+                            "name": {
+                                "value": "rat",
+                                "synonyms": [
+                                    "mouse",
+                                    "mice"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "raven",
+                            "name": {
+                                "value": "raven"
+                            }
+                        },
+                        {
+                            "id": "rooster",
+                            "name": {
+                                "value": "rooster",
+                                "synonyms": [
+                                    "cock"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "sheep",
+                            "name": {
+                                "value": "sheep",
+                                "synonyms": [
+                                    "lamb"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "turkey",
+                            "name": {
+                                "value": "turkey"
+                            }
+                        },
+                        {
+                            "id": "wolf",
+                            "name": {
+                                "value": "wolf",
+                                "synonyms": [
+                                    "wolves"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

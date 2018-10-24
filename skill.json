@@ -1,0 +1,62 @@
+{
+    "manifest": {
+        "publishingInformation": {
+            "locales": {
+                "en-US": {
+                    "summary": "Ask Alexa what sound your favorite animal makes, and get quizzed about animal sounds you've learnt till now.",
+                    "examplePhrases": [
+                        "Alexa open wildlife sounds and quiz me",
+                        "Alexa open wildlife sounds",
+                        "Alexa ask wildlife sounds what sound does the bear do"
+                    ],
+                    "keywords": [
+                        "animals",
+                        "sounds",
+                        "quiz",
+                        "animal",
+                        "sound",
+                        "bear",
+                        "cat",
+                        "bird",
+                        "chicken",
+                        "crow",
+                        "dog",
+                        "elephant",
+                        "horse",
+                        "lion",
+                        "monkey",
+                        "rat",
+                        "raven",
+                        "rooster",
+                        "sheep",
+                        "turkey",
+                        "wolf"
+                    ],
+                    "name": "wildlife sounds",
+                    "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/549e/0e6832aae03d438996c303f475c6bf16/APP_ICON?versionId=sgf8nxVFCAhTmmQ2pByIaR4xAfh6kZr_&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1540470568&Signature=p7TS7ifebFWT9KvsdUP1kZecLRo%3D",
+                    "description": "This skill is for children and people who want to learn or enjoy sounds of different animals. There are currently two modes available-\n- Quiz me\n- Ask what a animal sounds like\nAvailable animals are cat bird bear chicken crow dog elephant horse lion monkey rat raven rooster sheep turkey wolf\n",
+                    "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/549e/0e6832aae03d438996c303f475c6bf16/APP_ICON?versionId=sgf8nxVFCAhTmmQ2pByIaR4xAfh6kZr_&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1540470568&Signature=p7TS7ifebFWT9KvsdUP1kZecLRo%3D"
+                }
+            },
+            "isAvailableWorldwide": true,
+            "testingInstructions": "None.",
+            "category": "EDUCATION_AND_REFERENCE",
+            "distributionCountries": []
+        },
+        "apis": {
+            "custom": {
+                "endpoint": {
+                    "sourceDir": "lambda"
+                }
+            }
+        },
+        "manifestVersion": "1.0",
+        "privacyAndCompliance": {
+            "allowsPurchases": false,
+            "isExportCompliant": true,
+            "containsAds": false,
+            "isChildDirected": true,
+            "usesPersonalInfo": false
+        }
+    }
+}
